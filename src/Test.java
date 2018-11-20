@@ -9,5 +9,13 @@ public class Test
         Sorts.ascendingSort(arr1);
         Sorts.printArr(arr1);
         System.out.println();
+
+        String[] names = {"Cindy", "Judy", "Amy", "Cathy", "Angela"};
+        Sorts.printArr(names);
+        System.out.println();
+
+        Sorts.ascendingSort(names);
+        Sorts.printArr(names);
+        System.out.println();
     }
 }
